@@ -5,8 +5,8 @@
 
 | Página de login | Página de cadastro | Mensagem de sucesso no cadastro |
 |-|-|-|
-| ![](./screenshots/login-page.jpg) | ![](./screenshots/solicitar-acesso.jpg) | ![](./screenshots/cadastro-finalizado.jpg) |
+| ![](./img/screenshots/login-page.jpg) | ![](./img/screenshots/solicitar-acesso.jpg) | ![](./img/screenshots/cadastro-finalizado.jpg) |
 
 | Página inicial | Cadastrando novo produto | Pré-visualização da imagem |
 |-|-|-|
-| ![](./screenshots/imagens.jpg) | ![](./screenshots/cadastro-produto.jpg) | ![](./screenshots/previa-imagem.jpg) |
+| ![](./img/screenshots/imagens.jpg) | ![](./img/screenshots/cadastro-produto.jpg) | ![](./img/screenshots/previa-imagem.jpg) |
