@@ -38,11 +38,49 @@
         </a>        
         <br><br>
 
-        <p class="width-350 mx-auto">Este foi um aplicativo que fiz em meados de 2020, durante a pandemia de COVID-19 para ajudar meu pai, vendedor do Magazine Luiza, que estava trabalhando em home office e precisava mostrar para seus clientes algumas ofertas que a empresa não fornecia banners.</p><br>
+        <p class="width-350 mx-auto">Este foi um aplicativo que fiz em meados de 2020, durante a pandemia de COVID-19 para ajudar meu pai, vendedor do Magazine Luiza, que estava trabalhando em home office e precisava mostrar para seus clientes algumas ofertas que a empresa não fornecia banners.</p>
+
+        <div id="screenshots" class="carousel slide width-350 mx-auto mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./static/img/screenshots/login-page.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                <img src="./static/img/screenshots/solicitar-acesso.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                <img src="./static/img/screenshots/cadastro-finalizado.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                <img src="./static/img/screenshots/cadastro-produto.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                <img src="./static/img/screenshots/previa-imagem.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#screenshots" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#screenshots" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        
+        <p class="width-350 mx-auto mb-4">A seguir, você pode ver um exemplo de banner que foi gerado com este aplicativo.</p>
+
+        
+        <img src="./static/img/screenshots/exemplo-imagem.jpg" class="mx-auto mb-4 width-350">
+
+        
+        <p class="width-350 mx-auto mb-4">Devo adverter: <strong>esta não é uma ferramenta oficial do Magazine Luiza</strong>. Portanto, o uso não autorizado pode estar sujeito à ações tanto pelo desenvolvedor, quanto pelo Magazine Luiza. Abaixo, há alguns tópicos que podem ser lidos e não devem ser ignorados.</p>
+
 
         <div class="card bg-light text-dark width-350 mx-auto">
             <div class="card-header mt-2">
-                <h6>Evite frustrações lendo esta descrição</h6>
+                <h6>Evite frustrações lendo estes itens</h6>
 
                 <a data-bs-toggle="collapse" href="#descricao" class="fs-3 mt-0">
                     <i class="bi bi-arrow-down-circle"></i>
@@ -58,6 +96,8 @@
           </div>
 
           <br>
+          
+
           <strong>Em breve:</strong> documentação da API
 
           <br><br>
@@ -66,11 +106,18 @@
     </div>
 
     <footer class="bg-light d-block mb-0 p-5 text-center text-dark">
-          Copyright © <a href="http://github.com/jjpaulo2" target="_blank">João Paulo Carvalho</a><br>
-          2020 - <span id="ano-atual">2021</span>
+          Todos os direitos reservados ©<br>
+          2020 - <span id="current-year"></span>
+
+          <hr class="width-350 mx-auto">
+
+          Feito com 
+          <i class="bi bi-heart-fill"></i>
+          por <a href="http://github.com/jjpaulo2" target="_blank">@jjpaulo2</a>
     </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="./static/js/script.js"></script>
 </body>
 </html>
