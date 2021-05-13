@@ -1,5 +1,3 @@
-# APP DE GERAR IMAGENS DE PRODUTOS DA MAGAZINE LUIZA
-
 ![](./static/img/splash.jpg)
 
 Este foi um aplicativo que fiz em meados de 2020, durante a pandemia de **COVID-19** para **ajudar meu pai**, vendedor do **Magazine Luiza**, que estava trabalhando em **home office** e precisava mostrar para seus clientes algumas ofertas que a empresa não fornecia banners.
